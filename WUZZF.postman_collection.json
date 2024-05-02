@@ -1,0 +1,1489 @@
+{
+	"info": {
+		"_postman_id": "312e6f35-7934-4de9-9714-cce3e1dd5063",
+		"name": "WUZZF",
+		"description": "This is an APIs file for the wuzzf project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26984810",
+		"_collection_link": "https://gold-flare-526027.postman.co/workspace/0650f2f7-7cc9-45d5-8290-7c04be9f06b0/collection/26984810-312e6f35-7934-4de9-9714-cce3e1dd5063?action=share&source=collection_link&creator=26984810"
+	},
+	"item": [
+		{
+			"name": "Jobs",
+			"item": [
+				{
+					"name": "get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/job",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"job"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "example 1",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:5000/job",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"job"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "6136"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"17f8-jshfHUbzqEQv6j0YbCEDet8dDjQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Nov 2023 09:28:06 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"Node js Engineer\",\n        \"job_type\": \"full time\",\n        \"category\": \"Computers and information technology\",\n        \"owner\": \"google\",\n        \"experience\": \"3 years\",\n        \"location\": \"cairo\",\n        \"image\": null,\n        \"published_on\": \"2023-10-19T08:53:47.000Z\",\n        \"deadline\": \"2023-10-30T22:00:00.000Z\",\n        \"qualifications\": \"Soft Skills\\r\\nTeamwork\\r\\nTime Management\\r\\nCritical Thinking\\r\\nLeadership\\r\\nCommunication Skills\\r\\nTouch Typing\\r\\nTake Responsibility\\r\\nProblem-solving\\r\\nSoftware Skills\\r\\nC++ AND C\\r\\nJAVA and GUI\\r\\nPython\\r\\nC# and Unity\\r\\nPHP\\r\\nJava Script\\r\\nNode JS\\r\\nREACT\\r\\nHTML\\r\\nCSS\\r\\nO\",\n        \"responsibility\": \"Soft Skills\\r\\nTeamwork\\r\\nTime Management\\r\\nCritical Thinking\\r\\nLeadership\\r\\nCommunication Skills\\r\\nTouch Typing\\r\\nTake Responsibility\\r\\nProblem-solving\\r\\nSoftware Skills\\r\\nC++ AND C\\r\\nJAVA and GUI\\r\\nPython\\r\\nC# and Unity\\r\\nPHP\\r\\nJava Script\\r\\nNode JS\\r\\nREACT\\r\\nHTML\\r\\nCSS\\r\\nO\",\n        \"vacancy\": 1,\n        \"salary\": 200000\n    },\n    {\n        \"id\": 2,\n        \"title\": \"python  Engineer\",\n        \"job_type\": \"full time\",\n        \"category\": \"Computers and information technology\",\n        \"owner\": \"google\",\n        \"experience\": \"3 years\",\n        \"location\": \"cairo\",\n        \"image\": null,\n        \"published_on\": \"2023-10-19T08:53:47.000Z\",\n        \"deadline\": \"2023-10-30T22:00:00.000Z\",\n        \"qualifications\": \"Soft Skills\\r\\nTeamwork\\r\\nTime Management\\r\\nCritical Thinking\\r\\nLeadership\\r\\nCommunication Skills\\r\\nTouch Typing\\r\\nTake Responsibility\\r\\nProblem-solving\\r\\nSoftware Skills\\r\\nC++ AND C\\r\\nJAVA and GUI\\r\\nPython\\r\\nC# and Unity\\r\\nPHP\\r\\nJava Script\\r\\nNode JS\\r\\nREACT\\r\\nHTML\\r\\nCSS\\r\\nO\",\n        \"responsibility\": \"Soft Skills\\r\\nTeamwork\\r\\nTime Management\\r\\nCritical Thinking\\r\\nLeadership\\r\\nCommunication Skills\\r\\nTouch Typing\\r\\nTake Responsibility\\r\\nProblem-solving\\r\\nSoftware Skills\\r\\nC++ AND C\\r\\nJAVA and GUI\\r\\nPython\\r\\nC# and Unity\\r\\nPHP\\r\\nJava Script\\r\\nNode JS\\r\\nREACT\\r\\nHTML\\r\\nCSS\\r\\nO\",\n        \"vacancy\": 1,\n        \"salary\": 200000\n    },\n    {\n        \"id\": 3,\n        \"title\": \"web desiener\",\n        \"job_type\": \"full time\",\n        \"category\": \"Design & Creative\",\n        \"owner\": \"DELL\",\n        \"experience\": \"2 years\",\n        \"location\": \"cairo\",\n        \"image\": null,\n        \"published_on\": \"2023-10-19T06:53:47.000Z\",\n        \"deadline\": \"2023-10-30T20:00:00.000Z\",\n        \"qualifications\": \"Soft Skills\\r\\nTeamwork\\r\\nTime Management\\r\\nCritical Thinking\\r\\nLeadership\\r\\nCommunication Skills\\r\\nTouch Typing\\r\\nTake Responsibility\\r\\nProblem-solving\\r\\nSoftware Skills\\r\\nC++ AND C\\r\\nJAVA and GUI\\r\\nPython\\r\\nC# and Unity\\r\\nPHP\\r\\nJava Script\\r\\nNode JS\\r\\nREACT\\r\\nHTML\\r\\nCSS\\r\\nO\",\n        \"responsibility\": \"Soft Skills\\r\\nTeamwork\\r\\nTime Management\\r\\nCritical Thinking\\r\\nLeadership\\r\\nCommunication Skills\\r\\nTouch Typing\\r\\nTake Responsibility\\r\\nProblem-solving\\r\\nSoftware Skills\\r\\nC++ AND C\\r\\nJAVA and GUI\\r\\nPython\\r\\nC# and Unity\\r\\nPHP\\r\\nJava Script\\r\\nNode JS\\r\\nREACT\\r\\nHTML\\r\\nCSS\\r\\nO\",\n        \"vacancy\": 1,\n        \"salary\": 200000\n    },\n    {\n        \"id\": 4,\n        \"title\": \"Engineer\",\n        \"job_type\": \"part time\",\n        \"category\": \"Computers and information technology\",\n        \"owner\": \"Helwan \",\n        \"experience\": \"2 years\",\n        \"location\": \"cairo\",\n        \"image\": null,\n        \"published_on\": \"2023-10-19T06:53:47.000Z\",\n        \"deadline\": \"2023-10-30T20:00:00.000Z\",\n        \"qualifications\": \"Soft Skills\\r\\nTeamwork\\r\\nTime Management\\r\\nCritical Thinking\\r\\nLeadership\\r\\nCommunication Skills\\r\\nTouch Typing\\r\\nTake Responsibility\\r\\nProblem-solving\\r\\nSoftware Skills\\r\\nC++ AND C\\r\\nJAVA and GUI\\r\\nPython\\r\\nC# and Unity\\r\\nPHP\\r\\nJava Script\\r\\nNode JS\\r\\nREACT\\r\\nHTML\\r\\nCSS\\r\\nO\",\n        \"responsibility\": \"Soft Skills\\r\\nTeamwork\\r\\nTime Management\\r\\nCritical Thinking\\r\\nLeadership\\r\\nCommunication Skills\\r\\nTouch Typing\\r\\nTake Responsibility\\r\\nProblem-solving\\r\\nSoftware Skills\\r\\nC++ AND C\\r\\nJAVA and GUI\\r\\nPython\\r\\nC# and Unity\\r\\nPHP\\r\\nJava Script\\r\\nNode JS\\r\\nREACT\\r\\nHTML\\r\\nCSS\\r\\nO\",\n        \"vacancy\": 1,\n        \"salary\": 200000\n    },\n    {\n        \"id\": 5,\n        \"title\": \"home manager\",\n        \"job_type\": \"part time\",\n        \"category\": \"Management\",\n        \"owner\": \" mr: jon\",\n        \"experience\": \"12 years\",\n        \"location\": \"Giza\",\n        \"image\": {\n            \"type\": \"Buffer\",\n            \"data\": [\n                110\n            ]\n        },\n        \"published_on\": \"2023-10-19T06:53:47.000Z\",\n        \"deadline\": \"2023-10-30T20:00:00.000Z\",\n        \"qualifications\": \"undefined\",\n        \"responsibility\": \"undefined\",\n        \"vacancy\": 1,\n        \"salary\": 60000\n    },\n    {\n        \"id\": 6,\n        \"title\": \"Hardware Engineer\",\n        \"job_type\": \"full time\",\n        \"category\": \"Computers and information technology\",\n        \"owner\": \"HP\",\n        \"experience\": \"3 years\",\n        \"location\": \"cairo\",\n        \"image\": null,\n        \"published_on\": \"0000-00-00 00:00:00\",\n        \"deadline\": \"2023-10-30T20:00:00.000Z\",\n        \"qualifications\": \"Soft Skills\\r\\nTeamwork\\r\\nTime Management\\r\\nCritical Thinking\\r\\nLeadership\\r\\nCommunication Skills\\r\\nTouch Typing\\r\\nTake Responsibility\\r\\nProblem-solving\\r\\nSoftware Skills\\r\\nC++ AND C\\r\\nJAVA and GUI\\r\\nPython\\r\\nC# and Unity\\r\\nPHP\\r\\nJava Script\\r\\nNode JS\\r\\nREACT\\r\\nHTML\\r\\nCSS\\r\\nO\",\n        \"responsibility\": \"Soft Skills\\r\\nTeamwork\\r\\nTime Management\\r\\nCritical Thinking\\r\\nLeadership\\r\\nCommunication Skills\\r\\nTouch Typing\\r\\nTake Responsibility\\r\\nProblem-solving\\r\\nSoftware Skills\\r\\nC++ AND C\\r\\nJAVA and GUI\\r\\nPython\\r\\nC# and Unity\\r\\nPHP\\r\\nJava Script\\r\\nNode JS\\r\\nREACT\\r\\nHTML\\r\\nCSS\\r\\nO\",\n        \"vacancy\": 1,\n        \"salary\": 200000\n    },\n    {\n        \"id\": 7,\n        \"title\": \"Photoshop\",\n        \"job_type\": \"full time\",\n        \"category\": \"Design & Creative\",\n        \"owner\": \"HP\",\n        \"experience\": \"3 years\",\n        \"location\": \"cairo\",\n        \"image\": null,\n        \"published_on\": \"2023-10-19T22:00:00.000Z\",\n        \"deadline\": \"2023-10-30T20:00:00.000Z\",\n        \"qualifications\": \"Soft Skills\\r\\nTeamwork\\r\\nTime Management\\r\\nCritical Thinking\\r\\nLeadership\\r\\nCommunication Skills\\r\\nTouch Typing\\r\\nTake Responsibility\\r\\nProblem-solving\\r\\nSoftware Skills\\r\\nC++ AND C\\r\\nJAVA and GUI\\r\\nPython\\r\\nC# and Unity\\r\\nPHP\\r\\nJava Script\\r\\nNode JS\\r\\nREACT\\r\\nHTML\\r\\nCSS\\r\\nO\",\n        \"responsibility\": \"Soft Skills\\r\\nTeamwork\\r\\nTime Management\\r\\nCritical Thinking\\r\\nLeadership\\r\\nCommunication Skills\\r\\nTouch Typing\\r\\nTake Responsibility\\r\\nProblem-solving\\r\\nSoftware Skills\\r\\nC++ AND C\\r\\nJAVA and GUI\\r\\nPython\\r\\nC# and Unity\\r\\nPHP\\r\\nJava Script\\r\\nNode JS\\r\\nREACT\\r\\nHTML\\r\\nCSS\\r\\nO\",\n        \"vacancy\": 1,\n        \"salary\": 200000\n    },\n    {\n        \"id\": 10,\n        \"title\": \"ll\",\n        \"job_type\": \"full time\",\n        \"category\": \"Computers and information technology\",\n        \"owner\": \"google\",\n        \"experience\": \"3 years\",\n        \"location\": \"cairo\",\n        \"image\": {\n            \"type\": \"Buffer\",\n            \"data\": [\n                117\n            ]\n        },\n        \"published_on\": \"0000-00-00 00:00:00\",\n        \"deadline\": \"0000-00-00 00:00:00\",\n        \"qualifications\": \"Soft Skills\",\n        \"responsibility\": \"null\",\n        \"vacancy\": 1,\n        \"salary\": 200000\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "get one job",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/job/44",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"job",
+								"44"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "ex 1",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:5000/job/10",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"job",
+										"10"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "348"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"15c-8YFHpOGopKyVT4acJg1+uk70btk\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Nov 2023 09:28:39 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 10,\n        \"title\": \"ll\",\n        \"job_type\": \"full time\",\n        \"category\": \"Computers and information technology\",\n        \"owner\": \"google\",\n        \"experience\": \"3 years\",\n        \"location\": \"cairo\",\n        \"image\": {\n            \"type\": \"Buffer\",\n            \"data\": [\n                117\n            ]\n        },\n        \"published_on\": \"0000-00-00 00:00:00\",\n        \"deadline\": \"0000-00-00 00:00:00\",\n        \"qualifications\": \"Soft Skills\",\n        \"responsibility\": \"null\",\n        \"vacancy\": 1,\n        \"salary\": 200000\n    }\n]"
+						},
+						{
+							"name": "ex 2",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:5000/job/44",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"job",
+										"44"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "17"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"11-ZQgtWT3oXRH8fxIrl2PHhPSf6iU\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Nov 2023 09:29:13 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "\"Thier is no Job\""
+						}
+					]
+				},
+				{
+					"name": "add new job",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n        \"title\": \"Nodejs  Engineer\",\r\n        \"job_type\": \"full time\",\r\n        \"category\": \"Computers and information technology\",\r\n        \"owner\": \"google\",\r\n        \"experience\": \"3 years\",\r\n        \"location\": \"cairo\",\r\n        \"image\": null,\r\n        \r\n        \"deadline\": \"2024-1-30T22:00:00.000Z\",\r\n        \"qualifications\": \"Soft Skills\",\r\n        \"vacancy\": 5,\r\n        \"salary\": 200000\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/job/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"job",
+								"add"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "unauthorized",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "token",
+										"value": "2b2d5113c93f78233a81fb3d97a996f9",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\r\n        \"title\": \"pppppppppppppppp  Engineer\",\r\n        \"job_type\": \"full time\",\r\n        \"category\": \"Computers and information technology\",\r\n        \"owner\": \"google\",\r\n        \"experience\": \"3 years\",\r\n        \"location\": \"cairo\",\r\n        \"image\": null,\r\n        \r\n        \"deadline\": \"2023-11-30T22:00:00.000Z\",\r\n        \"qualifications\": \"Soft Skills\",\r\n        \"vacancy\": 1,\r\n        \"salary\": 200000\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:5000/job/add",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"job",
+										"add"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "34"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"22-0nB4Pu8SObWTJELLr+YYRu22mLU\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Nov 2023 09:29:47 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "you are not allawed to do complete"
+						},
+						{
+							"name": "successfully add job",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "token",
+										"value": "2b2d5113c93f78233a81fb3d97a996f9",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\r\n        \"title\": \"Nodejs  Engineer\",\r\n        \"job_type\": \"full time\",\r\n        \"category\": \"Computers and information technology\",\r\n        \"owner\": \"google\",\r\n        \"experience\": \"3 years\",\r\n        \"location\": \"cairo\",\r\n        \"image\": null,\r\n        \r\n        \"deadline\": \"2024-1-30T22:00:00.000Z\",\r\n        \"qualifications\": \"Soft Skills\",\r\n        \"vacancy\": 5,\r\n        \"salary\": 200000\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:5000/job/add",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"job",
+										"add"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "27"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1b-jZF3vdB0rUGA9KpmzECndPuWYeA\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Nov 2023 09:32:01 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "\" job added  successfully \""
+						}
+					]
+				},
+				{
+					"name": "apply for job",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "d7f5057cdba50e9cd1f9149bfde14e63",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "protfolio",
+									"value": "http://safcai.helwan.edu.eg",
+									"type": "text"
+								},
+								{
+									"key": "cv",
+									"type": "file",
+									"src": [],
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/job/apply/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"job",
+								"apply",
+								"4"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "applied before",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "token",
+										"value": "d7f5057cdba50e9cd1f9149bfde14e63",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "protfolio",
+											"value": "http://safcai.helwan.edu.eg",
+											"type": "text"
+										},
+										{
+											"key": "cv",
+											"type": "file",
+											"src": []
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/job/apply/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"job",
+										"apply",
+										"1"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "32"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"20-FyJ9pmBpq2YUi85LJwukU2NtVnA\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Nov 2023 09:33:11 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "\"You applay for this job before\""
+						},
+						{
+							"name": "successfully apply",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "token",
+										"value": "d7f5057cdba50e9cd1f9149bfde14e63",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "protfolio",
+											"value": "http://safcai.helwan.edu.eg",
+											"type": "text"
+										},
+										{
+											"key": "cv",
+											"type": "file",
+											"src": [],
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/job/apply/4",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"job",
+										"apply",
+										"4"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "38"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"26-4EWO0OxYoHEY5glunKq4lG4h5M4\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Nov 2023 09:33:38 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "\"You Apply for this job successfully \""
+						}
+					]
+				},
+				{
+					"name": "delete job",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5000/job/delete/9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"job",
+								"delete",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update job",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Front end ",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/job/update/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"job",
+								"update",
+								"10"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "token",
+										"value": "2b2d5113c93f78233a81fb3d97a996f9",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "title",
+											"value": "ll",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/job/update/10",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"job",
+										"update",
+										"10"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "34"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"22-0nB4Pu8SObWTJELLr+YYRu22mLU\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Nov 2023 09:34:31 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "you are not allawed to do complete"
+						},
+						{
+							"name": "successfully add job",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "token",
+										"value": "2b2d5113c93f78233a81fb3d97a996f9",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "title",
+											"value": "Front end ",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/job/update/10",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"job",
+										"update",
+										"10"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "29"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1d-XhCOUVs103BrfifIreSssAyHJ7I\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Nov 2023 09:35:13 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "\" job Updated  successfully \""
+						}
+					]
+				}
+			],
+			"description": "**CURDS Operations in** Jobs"
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "get one user",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "76313564e88cd340fabdb20aa8d31a60",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "d7f5057cdba50e9cd1f9149bfde14e63",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost:5001/user/profile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"user",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update user",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "76313564e88cd340fabdb20aa8d31a60",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "d7f5057cdba50e9cd1f9149bfde14e63",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "d7f5057cdba50e9cd1f9149bfde14e63",
+								"description": "sabra",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "sabra Salh shehata 222222",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "sabra@gmail.com",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "gender",
+									"value": "female",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "address",
+									"value": "cairo",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "education",
+									"value": "teacher",
+									"type": "text"
+								},
+								{
+									"key": "job_title",
+									"value": "home worker",
+									"type": "text"
+								},
+								{
+									"key": "image ",
+									"type": "file",
+									"src": "/C:/Users/M/Downloads/princess.jpg",
+									"disabled": true
+								},
+								{
+									"key": "phone_number",
+									"value": "0110020301",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "40",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5001/user/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"user",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete user",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "d7f5057cdba50e9cd1f9149bfde14e63",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "76313564e88cd340fabdb20aa8d31a60",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"description": "nourhan\n",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "d34ed100adfabe224c2d804e6d65454d",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5001/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categories",
+			"item": [
+				{
+					"name": "get all Categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5001/category",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get one Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5001/category/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"category",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "jobs in one category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5001/category/jobs_in_category/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"category",
+								"jobs_in_category",
+								"1"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "all jobs in all categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5001/category/jobs_in_categories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"category",
+								"jobs_in_categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update Category",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n            \"title\": \"Home Manager\"\r\n           \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5001/category/update/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"category",
+								"update",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete Category",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5001/category/delete/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"category",
+								"delete",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add new Category",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"description": "nourhan\n",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n      \"id\": 7,\r\n            \"title\": \"Adminiskkkkkkkkkktration\",\r\n            \"description\": \"Their duties may include fielding telephone calls, receiving and directing visitors, word processing, creating spreadsheets and presentations, and filing.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5001/category/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"category",
+								"add"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Applications",
+			"item": [
+				{
+					"name": "user Applications",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "d7f5057cdba50e9cd1f9149bfde14e63",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5000/application/userApplications",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"application",
+								"userApplications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user Application",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "d7f5057cdba50e9cd1f9149bfde14e63",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5000/application/userApplication/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"application",
+								"userApplication",
+								"3"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Job Applications",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5000/application/JobApplications/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"application",
+								"JobApplications",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "protfolio",
+									"value": "nourhankhan157@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/application/update/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"application",
+								"update",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "token",
+								"value": "d7f5057cdba50e9cd1f9149bfde14e63",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5000/application/delete/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"application",
+								"delete",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add new",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "d7f5057cdba50e9cd1f9149bfde14e63",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "2b2d5113c93f78233a81fb3d97a996f9",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5000/application/add/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"application",
+								"add",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \r\n    \"email\" : \"Mona@gmail.com\" ,\r\n    \"password\" : \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5001/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "registre",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"nono\" ,\r\n    \"email\" : \"Monaddldddd@gmail.com\" ,\r\n    \"password\" : \"34\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5001/registre",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"registre"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

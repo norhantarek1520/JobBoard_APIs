@@ -1,0 +1,52 @@
+	
+CREATE TABLE jobs( 
+    id int PRIMARY KEY AUTO_INCREMENT, 
+    title varchar(255) not null , 
+    job_type varchar(255) not null ,
+    owner varchar(255) ,
+     experience varchar(255) not null ,
+      location varchar(255) , 
+      image BINARY , 
+      published_on datetime not null ,
+      deadline datetime not null ,
+        Qualifications	varchar(255) ,
+       Responsibility varchar(255) ,
+       vacancy int DEFAULT(1), 
+       salary double 
+      
+        );
+	
+CREATE TABLE users(
+    id int PRIMARY KEY AUTO_INCREMENT, 
+    name varchar(255) not null ,
+    email varchar(255) not null UNIQUE, 
+    password varchar(255) not null ,
+    token  varchar(255) not null ,
+    is_admin boolean DEFAULT(0), 
+    gender varchar(255),
+    age int , 
+    address varchar(255) ,
+    image BINARY ,
+    phone_number int ,
+    education varchar(255) ,
+    job_title varchar(255) ,
+     );
+
+CREATE TABLE categories(  id int UNIQUE , title varchar(255) PRIMARY KEY , description text );
+
+create table applications (id int PRIMARY KEY AUTO_INCREMENT, 
+userID int , 
+jobID int , 
+cv blob , 
+protfolio varchar(255),
+applaiedOn date ,
+contactEmail VARCHAR(255) NOT NULL,
+status ENUM('pending', 'rejected', 'accepted'),
+FOREIGN KEY (userID) REFERENCES users(id), 
+FOREIGN KEY (jobID) REFERENCES jobs(id) 
+);
+
+
+ALTER TABLE Jobs
+ADD CONSTRAINT fk_category
+FOREIGN KEY (category) REFERENCES categories(title);
